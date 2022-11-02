@@ -30,8 +30,13 @@ class App extends Component{
     return(
       <div className="container-fluid my-5">
         <div className="row">
+<<<<<<< HEAD
           <div className="col-sm-6 mx-auto text-black shadow-lg p-3">
             <h1 className="text-center "> DAILY TASK </h1>
+=======
+          <div className="col-sm-6 mx-auto text-black shadow-lg p-2">
+            <h1 className="text-center "> Daily task </h1>
+>>>>>>> 959c132300e1ec66a84548618a937705d44591bb
             <div className="row">
               <div className="col-9">
                 <input type="text" className='form-control' placeholder='write your task ' value={this.state.text}  onChange={this.handlechange} />
